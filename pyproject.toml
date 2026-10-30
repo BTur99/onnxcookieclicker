@@ -1,0 +1,23 @@
+[project]
+name = "onnxcookieclicker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gleb", email = "gealtukhov21@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mss>=10.2.0",
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+    "pyautogui>=0.9.54",
+    "pynput>=1.8.2",
+]
+
+[project.scripts]
+onnxcookieclicker = "onnxcookieclicker:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
