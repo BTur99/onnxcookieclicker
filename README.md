@@ -30,10 +30,10 @@
 
 ### 1. Установка системных зависимостей
 Библиотекам `pyautogui` и `pynput` нужны системные инструменты для работы с экраном и мышью:
-
+```bash
 sudo apt update
 sudo apt install -y git curl build-essential python3-dev scrot python3-tk
-
+```
 ### 2. Установка менеджера пакетов uv
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
